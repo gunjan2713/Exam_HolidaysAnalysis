@@ -116,11 +116,11 @@ exam_df = scrape_exams(EXAMS_URL)
 if exam_df is not None and not holidays_df.empty:
   # create a final dataframe by calling combine function
     df_final = combine_data(exam_df, holidays_df)
-    df_final.head(100).to_csv('output.csv', index=False)
+    df_final.head(100).to_csv('ExamHolidays.csv', index=False)
   # check for the clashes
     clashes_df = check_clashes(df_final.head(100))
     print(clashes_df)
     # print(df_final)
-df_loaded = pd.read_csv('output.csv')
+df_loaded = pd.read_csv('ExamHolidays.csv')
 clashes_df 
 df_final
