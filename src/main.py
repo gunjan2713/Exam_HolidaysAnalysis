@@ -122,5 +122,5 @@ if exam_df is not None and not holidays_df.empty:
     print(clashes_df)
     # print(df_final)
 df_loaded = pd.read_csv('ExamHolidays.csv')
-clashes_df 
-df_final
+# clashes_df 
+# df_final
