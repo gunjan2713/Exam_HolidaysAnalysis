@@ -21,8 +21,11 @@ Why Is This Dataset Valuable?
 The dataset I created offers a unique combination of exam schedules and holiday information that isn’t readily available anywhere else in a clean format. Here’s why it matters:
 
 For Students and Educators: It helps plan study schedules by identifying potential clashes between exams and holidays.
+
 Resource Management: Educational institutions can better allocate resources by understanding when exams are scheduled relative to holidays.
+
 Policy Insights: Education policymakers can use this data for informed decision-making regarding exam scheduling.
+
 Cultural Context: It provides insights into how cultural events (holidays) intersect with educational milestones (exams).
 
 How to Run the Project
