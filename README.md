@@ -2,7 +2,13 @@ Exams & Holidays Analysis
 
 Welcome to the Exams & Holidays Analysis project! This initiative combines exam schedules with holiday data in India to create a unique dataset that can be valuable for various stakeholders.
 
-Data Sources
+User Input for Clashes:
+During execution, the script will ask if you want to see clashes between exams and holidays. 
+If you input 'yes', it will display all instances where an exam date coincides with a holiday. 
+Any other input will skip this step. 
+
+This feature allows users to quickly identify potential conflicts in the schedule. 
+
 
 API: I used the Calendarific API to get holiday information for India.(https://calendarific.com/)
 
